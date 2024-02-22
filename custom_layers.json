@@ -1,0 +1,11 @@
+{
+  "aaaaaaaaaaaaa": "[-1, 1, 'SuperLayerParallel', [['IdenticalLayer', 'DoubleAttention', 'TripletAttention']]]",
+  "aaaaaaaaaaaaaa": "[-1, 1, 'SuperLayerCascade', [['TripletAttention', 'ECAAttention', 'DoubleAttention', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer']]]",
+  "bbbbbbbbbbb": "[-1, 1, 'SuperLayerCascade', [['ECAAttention', 'SEAttention', 'ECAAttention', 'ECAAttention', 'SEAttention', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer']]]",
+  "ccccc": "[-1, 1, 'SuperLayerCascade', [['SEAttention', 'ShuffleAttention', 'CoordAtt', 'TripletAttention', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer']]]",
+  "IdCaCbTa": "[-1, 1, 'SuperLayerParallel', [['IdenticalLayer', 'TripletAttention', 'CoordAtt', 'CBAM_ATT']]]",
+  "CA3": "[-1, 1, 'SuperLayerCascade', [['CoordAtt', 'CoordAtt', 'CoordAtt', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer']]]",
+  "test01_ca+i": "[-1, 1, 'SuperLayerParallel', [['IdenticalLayer', 'CoordAtt']]]",
+  "ALLIN": "[-1, 1, 'SuperLayerParallel', [['IdenticalLayer', 'CoordAtt', 'CBAM_ATT', 'ECAAttention', 'SEAttention', 'TripletAttention', 'ShuffleAttention', 'DoubleAttention']]]",
+  "ALLIN_4": "[-1, 1, 'SuperLayerCascade', [['ALLIN', 'ALLIN', 'ALLIN', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer', 'IdenticalLayer']]]"
+}
